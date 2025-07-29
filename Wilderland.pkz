@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Adventures</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+      color: #333;
+    }
+    header {
+      background-color: #1e3c72;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #16325c;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.75rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+      font-size: 2.5rem;
+    }
+    .content {
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1e3c72;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wanderlust Adventures</h1>
+    <p>Discover. Explore. Live.</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="hero">
+    Your next adventure awaits.
+  </div>
+  <div class="content">
+    <div class="card">
+      <h2>Explore the Mountains</h2>
+      <p>Find peace and thrill in the rugged beauty of the Rockies or the Himalayas. Perfect for hikers and nature lovers.</p>
+    </div>
+    <div class="card">
+      <h2>Beach Escapes</h2>
+      <p>Unwind on pristine beaches, from the Caribbean to Southeast Asia. Experience sunshine, surf, and serenity.</p>
+    </div>
+    <div class="card">
+      <h2>Cultural Journeys</h2>
+      <p>Dive into rich traditions, historic landmarks, and local cuisine in vibrant cities across the globe.</p>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Wanderlust Adventures. All rights reserved.
+  </footer>
+</body>
+</html>
